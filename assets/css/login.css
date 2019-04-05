@@ -1,0 +1,10 @@
+.header{
+    text-align: center;
+
+}
+.header-logo{
+    cursor:pointer;
+    /* border:none; */
+    border: none;
+    background-size: cover;
+}

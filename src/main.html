@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+        <link rel="stylesheet" href="../assets/css/global.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="../assets/css/star.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>Page Title</title>
+</head>
+<body>
+
+    <div class="navigation">
+            <ul>
+                    <li><a href="#">ورود</a></li>
+                    <li><a href="#">عضویت</a></li>
+            </ul>
+            <ul >
+                    <li><a href="#">راهنما</a></li>
+            </ul>
+    </div>
+    <div class="liny"><pre> </pre></div>
+    <div class="search">
+            <table align="center">
+                <tr>
+                    <th> </th><th> </th>
+                </tr>
+                <tr>
+                        <td>
+                                <img src="../assets/img/reyhoon.png" alt="reyhoon" height="40" width="130"/>
+                        </td>
+                        <td rowspan="5">
+                                <img src="../assets/img/Pizza3.jpg" alt="pizza" height="500" width="500"/>
+                        </td>
+                </tr> 
+                <tr>
+                        <td height="20" width="2000">
+                                <span><h1>سفارش آنلاین غذا از بهترین رستوران‌ها و فست‌فود‌ها</h1></span>
+                        </td>
+                        
+                </tr>
+                <tr>
+                        <td height="10" width="2000" >
+                                <h5>برای دیدن لیست رستوران‌ها و فست‌فود‌هایی که به شما سرویس می‌دهند، منطقه خود را وارد کنید.</h5>
+                        </td>
+                </tr>
+                <tr>
+                        <td class="zero">
+                                <table align="center" >
+                                        <tr class="region-box">
+                                                <td class="c1" >
+                                                        <select class="myselect" name="selColor">
+                                                        <option value="r">تهران</option>
+                                                        <option value="g">اصفهان</option>
+                                                        <option value="b">کرج</option>
+                                                        <option value="b">شیراز</option>
+                                                        </select>
+                                                </td>
+                                                <td class="c2" > <input class="myinput" type="text" placeholder="مثلا نیاوران"/> </td>
+                                                <td class="c3">
+                                                        <input class="search-icon" type="image" src="../assets/img/search.png" width="50" height="50"/>
+                                                </td>
+                                        </tr>
+                                </table> 
+                        </td>    
+                </tr>
+                <tr>
+                        <td class="empty" >
+                                <pre> </pre>
+                        </td>
+                </tr>
+            </table>
+            
+    </div>
+
+    <div class="grid-container">
+            <div class="help"><h5>شهر و منطقه خود را وارد کنید</h5></div>
+            <div class="help"><h5>غذای خود را انتخاب کنید</h5></div>
+            <div class="help"><h5>غذایتان را نوش‌جان کنید</h5></div>
+            <div class="help">
+                    <table class="help-box">
+                                <tr>
+                                        <td>
+                                                <img src="../assets/img/1help.png" alt="reyhoon" height="50" width="50"/>
+                                        </td>
+                                        <td>
+                                                <p>منوی مورد علاقه خود را از بین بیش از 4000 رستوران خوب در تهران و شهرستان‌ها جستجو کنید.</p>
+                                        </td>
+                                </tr>
+                        </table>
+            </div>
+            <div class="help">
+                    <table class="help-box"> 
+                                <tr>
+                                        <td>
+                                                <img src="../assets/img/2help.png" alt="reyhoon" height="50" width="50"/>
+                                        </td>
+                                        <td>
+                                                <p>غذایی که می‌خواهید را انتخاب کنید و بدون هزینه اضافی سفارش خود را ثبت کنید.</p>
+                                        </td>
+                                </tr>
+                        </table>
+            </div>
+            <div class="help">
+                    <table>
+                                <tr class="help-box">
+                                        <td>
+                                                <img src="../assets/img/3help.png" alt="reyhoon" height="50" width="50"/>
+                                        </td>
+                                        <td>
+                                                <p>درب منزل یا حضوری از خود رستوران سفارشتان را تحویل بگیرید.</p>
+                                        </td>
+                                </tr>
+                        </table>
+            </div>
+    </div>
+    <div class="best-restaurants">
+            <h2>رستوران‌‌ها و فست فود‌های برتر ماه بر اساس امتیاز‌دهی کاربران</h2>
+            <div class="restaurant-grid">
+                    <div class="restaurant">
+                            <img src="../assets/img/1rest.png" alt="reyhoon" class="pic-rest"/>
+                            <h3>فست‌فود پیتزا هات (سعادت آباد)</h3>
+
+                            <div class="grid-star">
+                                        <div class="ls"><pre>           </pre></div>
+                                        <div class="gs"><pre>3.5</pre></div>
+                                        <div class="rate">
+                                                <input type="radio" id="star5" name="rate" value="5"/>
+                                                <label for="star5" title="text"  >5 stars</label>
+                                                <input type="radio" id="star4" name="rate" value="4" checked="true" />
+                                                <label for="star4" title="text">4 stars</label>
+                                                <input type="radio" id="star3" name="rate" value="3" />
+                                                <label for="star3" title="text" >3 stars</label>
+                                                <input type="radio" id="star2" name="rate" value="2"/>
+                                                <label for="star2" title="text">2 stars</label>
+                                                <input type="radio" id="star1" name="rate" value="1"/>
+                                                <label for="star1" title="text">1 star</label>
+                                        
+                                        </div>
+                                        <div class="gss"><pre>(54)</pre></div>
+                                        <div class="ls">
+                                                <pre>           </pre>
+                                        </div>
+                            </div>
+                            <h5 class="info">پیتزا . فست فود . ساندویچ . برگر</h5>
+                            <h5 class="info2">سعادت آباد، پاساژ میلاد نور، طبقه همکف</h5>
+                            <a href="#" class="myButton">شروع سفارش</a>
+                    </div>
+                    <div class="restaurant">
+                            <img src="../assets/img/2rest.png" alt="reyhoon" class="pic-rest"/>
+                            <h3>شیلا (مطهری)</h3>
+
+                            <div class="grid-star">
+                                        <div class="ls"><pre>           </pre></div>
+                                        <div class="gs"><pre>3.8</pre></div>
+                                        <div class="rate">
+                                                <input type="radio" id="star5" name="rate" value="5"/>
+                                                <label for="star5" title="text"  >5 stars</label>
+                                                <input type="radio" id="star4" name="rate" value="4" checked="true" />
+                                                <label for="star4" title="text">4 stars</label>
+                                                <input type="radio" id="star3" name="rate" value="3" />
+                                                <label for="star3" title="text" >3 stars</label>
+                                                <input type="radio" id="star2" name="rate" value="2"/>
+                                                <label for="star2" title="text">2 stars</label>
+                                                <input type="radio" id="star1" name="rate" value="1"/>
+                                                <label for="star1" title="text">1 star</label>
+                                
+                                        </div>
+                                        <div class="gss"><pre>(54)</pre></div>
+                                        <div class="ls">
+                                                <pre>           </pre>
+                                        </div>
+                            </div>
+                            <h5 class="info">فست فود . هات داگ . پیتزا . برگر</h5>
+                            <h5 class="info2">ولیعصر، مطهری،فتحی شقاقی، زیر برج بلورین</h5>
+                            <a href="#" class="myButton">شروع سفارش</a>
+                     </div>
+                     <div class="restaurant">
+                            <img src="../assets/img/3rest.png" alt="reyhoon" class="pic-rest"/>
+                            <h3>باگت (اندرزگو)</h3>
+
+                            <div class="grid-star">
+                                        <div class="ls"><pre>           </pre></div>
+                                        <div class="gs"><pre>3.8</pre></div>
+                                        <div class="rate">
+                                                <input type="radio" id="star5" name="rate" value="5"/>
+                                                <label for="star5" title="text"  >5 stars</label>
+                                                <input type="radio" id="star4" name="rate" value="4" checked="true" />
+                                                <label for="star4" title="text">4 stars</label>
+                                                <input type="radio" id="star3" name="rate" value="3" />
+                                                <label for="star3" title="text" >3 stars</label>
+                                                <input type="radio" id="star2" name="rate" value="2"/>
+                                                <label for="star2" title="text">2 stars</label>
+                                                <input type="radio" id="star1" name="rate" value="1"/>
+                                                <label for="star1" title="text">1 star</label>
+                                
+                                        </div>
+                                        <div class="gss"><pre>(95)</pre></div>
+                                        <div class="ls">
+                                                <pre>           </pre>
+                                        </div>
+                            </div>
+                            <h5 class="info"> فست فود . پیتزا . برگر . ساندویچ</h5>
+                            <h5 class="info2">بلوار اندرزگو، بین کاوه و قیطریه، نبش مهرمحمدی</h5>
+                            <a href="#" class="myButton">شروع سفارش</a>
+                     </div>
+            </div>
+    </div>
+    <div class="best-tehran-rest">
+        <h3>رستوران‌های خوب تهران در ریحون</h3>
+        <div class="tehran-rest-grid">
+                <div class="teh-rest">
+                        <img src="../assets/img/op1.jpeg" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5>ویترین</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op2.jpeg" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5>شاندیز جردن</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op3.jpeg" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5>تهیه غذای راد</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op4.png" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5>آمولای</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op5.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>جنارو</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op6.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>لانجین</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op7.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>جو گریل فود</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op8.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>رستوران کوبابا</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op9.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>تومو</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op10.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>کترینگ و تشریفات</h5>
+                        <h5>ناریجه</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op11.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>امیر شکلات</h5>
+                </div>
+                <div class="teh-rest">
+                        <img src="../assets/img/op12.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5>شیرین پلو</h5>
+                </div>
+        </div>
+    </div>
+    <div class ="food">
+                <h1>غذا چی میل دارید؟</h1>
+                <h2>صبحانه، ناهار، شام یا هر چیزی که میل دارید را انتخاب کنید</h2>
+                <div class="food-grid">
+                        <div class="f1">
+                                <div class="ffff">
+                                                <h1>ساندویچ</h1>
+                                                <h4>2746 رستوران فعال</h4>
+                                </div>
+                        </div>
+                        <div class="f2">
+                                <div class="ffff">
+                                                <h1>برگر</h1>
+                                                <h4>2452 رستوران فعال</h4>
+                                </div>    
+                        </div>
+                        <div class="f3">
+                                <div class="ffff">
+                                        <h1>پیتزا</h1>
+                                        <h4>2408 رستوران فعال</h4>
+                                </div>
+                        </div>
+                        <div class="f4">
+                                <div class="ffff">
+                                                <h1>کباب</h1>
+                                                <h4>1836 رستوران فعال</h4>
+                                </div>                        
+                        </div>
+                </div>
+            
+                <h2 class="more">انتخاب غذا‌های بیشتر</h2>
+                <a href="#" class="myButton2">خورشت</a>
+                <a href="#" class="myButton2">غذای پلویی</a>
+                <a href="#" class="myButton2">خوراک</a>
+                <a href="#" class="myButton2">سالاد</a>
+                <a href="#" class="myButton2">غذای ایرانی</a>
+                <a href="#" class="myButton2">فست فود</a>
+                <a href="#" class="myButton2">سوخاری</a>
+                <a href="#" class="myButton2">پاستا</a>
+                <br>
+                <a href="#" class="myButton2">چلو کباب</a>
+                <a href="#" class="myButton2">ماهی</a>
+                <a href="#" class="myButton2">استیک</a>
+                <a href="#" class="myButton2">بشقاب</a>
+                <a href="#" class="myButton2">صبحانه</a>
+                <a href="#" class="myButton2">سوپ</a>
+                <a href="#" class="myButton2">غذای دریای</a>
+                <a href="#" class="myButton2">آبمیوه طبیعی</a>
+        </div>
+        <div class="footer1">
+                <div class="footer-column1">
+                        <p>مراقبت و محافظت از حساب کاربری و رمزعبور هر کاربر بر عهده کاربر است. ریحون سریعترین راه سفارش آنلاین غذا است. منوی عکس‌دار رستوران‌های اطرافتان را بر اساس مکان خود به راحتی مشاهده کنید و سفارش دهید.</p>
+                        <a href="#">لیست رستوران‌ها</a>
+                </div>
+                <div class="footer-column">
+                        <div class="footer-line1">
+                                <pre>          </pre>
+                        </div>
+                        <div class="footer-column-header">
+                                <a href="#">تماس با ریحون</a>
+                        </div>
+                        
+                        <a href="#">درباره ریحون</a>
+                        <br>
+                        <a href="#">تماس با ما</a>
+                        <br>
+                        <a href="#">وبلاگ ریحون</a>
+                </div>
+                <div class="footer-column">
+                        <div class="footer-line2">
+                                <pre>          </pre>
+                        </div>
+                        <div class="footer-column-header">
+                                <a href="#">رستوران‌ها</a>
+                        </div>
+                        
+                        <a href="#">ثبت رستوران</a>
+                </div>
+                <div class="footer-column">
+                        <div class="footer-line3">
+                                <pre>          </pre>
+                        </div>
+                        <div class="footer-column-header">
+                                <a href="#">پشتیبانی ریحون</a>
+                        </div>
+                        
+                        <a href="#">سوالات متداول</a>
+                        <br>
+                        <a href="#">تماس با پشتیبانی</a>
+                        <br>
+                        <a href="#">قوانین و مقررات</a>
+                </div>
+                <div class="footer-column">
+                        <div class="footer-line4">
+                                <pre>          </pre>
+                        </div>
+                        <div class="footer-column-header">
+                                <a href="#">اپلیکیشن‌های موبایل</a> 
+                        </div>
+                        <div>
+                                        <input class="footer-myButton1" type="submit" value="">
+                        </div>
+                        <div>
+                                        <input class="footer-myButton2" type="submit" value="">
+                        </div>
+                        <div>
+                                        <input class="footer-myButton3" type="submit" value="">
+                        </div>
+                        
+                </div>
+                
+        </div>
+        <div class="footer2">
+                <input class="footer-logo1" type="submit" value="">
+                <input class="footer-logo2" type="submit" value="">
+        </div>
+        <div class="footer3" >
+                
+                <pre dir="ltr">© 2017, Reyhoon, All Rights Reserved.</pre>
+                <span class="my-icon">
+                        <i class="fab fa-telegram-plane fa-2x micon"></i>
+                        <i class="fab fa-facebook-f fa-2x micon"></i>
+                        <i class="fab fa-twitter fa-2x micon"></i>
+                        <i class="fab fa-instagram fa-2x micon"></i>
+                        <i class="fab fa-google-plus-g fa-2x micon"></i>      
+                </span>
+                
+        </div>
+</body>
+</html>
+
