@@ -1,9 +1,10 @@
 .navigation {
     display: inline;
+    margin-inline-start: 5%;
     font-size: 14px;
     border-style: none;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .navigation ul {
     display: inline;
@@ -34,7 +35,7 @@
     display: block;
     background-image: linear-gradient(to right, #fe0613 , #8b00ae);
     font-size: 5px;
-    margin-block-start: 3px;
+    margin-block-start: 1%;
 }
 .search {
     display: inline-block;
