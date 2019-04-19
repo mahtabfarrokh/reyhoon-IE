@@ -1,4 +1,15 @@
-
+.fix-it{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    position: fixed;
+    top : 0;
+    right: 0; 
+    left: 0;
+    background-color: white;
+  }
+  .shift-it{
+    margin-block-start: 99px;
+  }
 
 .header{
     display: inline-block;
@@ -45,20 +56,24 @@
     display: inline;
     border: 0ch;
     background: #fafafa;
-    color: #9b9b9b
+    color: #9b9b9b;
+    background-color: white;
 }
 .micon2{
     display: inline;
     border: 0ch;
     background: #fafafa;
     color: #cf0067;
+    background-color: white;
 }
 .mytab1 pre {
+    background-color: white;
     display: inline;
     font-weight: normal;
     font-family: 'Shabnam', sans-serif;
 }
 .mytab2 pre {
+    background-color: white;
     display: inline;
     font-weight: normal;
     font-family: 'Shabnam', sans-serif;
@@ -70,7 +85,6 @@
 .login-main{
     margin: 0px;
     width: 100%;
-    
     background-color: #f1f1f1;
 }
 .t1{
@@ -85,6 +99,9 @@
     font-weight: normal;
     
 }
+/* .input-login{
+    position:static;
+} */
 .input-login a {
     color: #3e7ad4;
     font-weight: normal;
@@ -96,8 +113,6 @@
 .inner-login{ 
     position: relative; 
     padding: 4px;
-
- 
 }
 
 /* style icon */
@@ -120,7 +135,7 @@
 /* add padding  */
 .right-login input { padding-right: 40px; }
 .input-login{
-    margin-right: 30%;
+    margin-right: 32%;
 }
 .micon3{
     margin-top: 3px;

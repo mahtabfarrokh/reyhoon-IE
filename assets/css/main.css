@@ -43,6 +43,7 @@
     margin: 0%;
     border: 0%;
     padding: 0%;
+    background-color: white;
 } 
 .search table{
     text-align: center;
@@ -91,9 +92,12 @@
     border: 0%;
     padding: 0%;  */
     font-size: 15px;
+    outline: none;
 }
 .myinput {
     border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
     border-color: silver;
     border-style:solid; 
     width: 400px;
@@ -103,13 +107,15 @@
     font-size: 15px;
     padding: 0%;
     border-width: 1px;
+    outline: none;
 }
 .search-icon {
     width: 50px;
-    height: 55px; 
+    height: 52px; 
     margin: 0%;
     border: 0%;
     padding: 0%;
+    outline: none;
 }
 .zero {
     margin: 0%;
@@ -462,4 +468,149 @@
 	position:relative;
 	top:1px;
 }
+.emtiyazi{
+    margin-block-start: 20%;
+    margin-block-end: 20%;
 
+}
+.box-mobile{
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: right;
+}
+.box-mobile p{
+    padding-block-start: 3%;
+    color: #9b9b9b;
+}
+.box-mobile h3{
+    color: #4a4a4a;
+    font-weight: normal;
+    padding-block-start: 3%;
+    padding-block-end: 3%;
+
+}
+.chert-form{
+    /* width: 200px; */
+
+}
+.input-mobile{
+    border: 1px solid #d4d4d4;
+    border-top-right-radius: 35px;
+    -moz-box-shadow: 1px 1px 10px 1px #dadada;
+	-webkit-box-shadow: 1px 1px 10px 1px #dadada;
+    border-bottom-right-radius: 35px;
+    width: 40%;
+    padding: 2%;          
+    font-size: 20px;
+    outline: none;
+    font-family: 'Shabnam', sans-serif;
+
+}
+
+
+.input-mobile:focus{
+    border: 1px solid #8b00ae;
+
+}
+.SMS {
+    border: 1px solid #d4d4d4;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    color:white;
+    background-image: linear-gradient(to right, #fe0613 , #8b00ae);
+    width:30%;
+    padding: 2.5%;
+    padding-right: 0;
+    margin: 0;
+    font-size: 15px;
+    cursor:pointer;
+}
+.form-grid{
+    grid-column-gap: 0px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    
+}
+.app-grid{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 620px;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.app-myButton1{
+    border: 1px solid #f5f3f3;
+    background:url(../img/application-download-link/sibapp-light.png) no-repeat;
+    -moz-box-shadow: 1px 1px 10px 1px #f5f3f3;
+	-webkit-box-shadow: 1px 1px 10px 1px #f5f3f3;
+    cursor:pointer;
+    width: 199px; 
+    height: 60px;
+    border-radius: 8px;
+    padding: 2%;
+}
+.app-myButton2{
+    border: 1px solid #f5f3f3;
+    background:url(../img/application-download-link/google-play-light.png) no-repeat;
+    -moz-box-shadow: 1px 1px 10px 1px #f5f3f3;
+	-webkit-box-shadow: 1px 1px 10px 1px #f5f3f3;
+    cursor:pointer;
+    width: 199px; 
+    height: 60px;
+    border-radius: 8px;
+    padding: 2%;
+}
+.app-myButton3{
+    border: 1px solid #f5f3f3;
+    background:url(../img/application-download-link/cafebazaar-light.png) no-repeat;
+    -moz-box-shadow: 1px 1px 10px 1px #f5f3f3;
+	-webkit-box-shadow: 1px 1px 10px 1px #f5f3f3;
+    cursor:pointer;
+    width: 199px; 
+    height: 60px;
+    border-radius: 8px;
+    padding: 2%;
+}
+.app-myButton4{
+    border: 1px solid #f5f3f3;
+    background:url(../img/application-download-link/ios-direct-light.png) no-repeat;
+    -moz-box-shadow: 1px 1px 10px 1px #f5f3f3;
+	-webkit-box-shadow: 1px 1px 10px 1px #f5f3f3;
+    cursor:pointer;
+    width: 199px; 
+    height: 60px;
+    border-radius: 8px;
+    padding: 2%;
+}
+.app-myButton5{
+    border: 1px solid #f5f3f3;
+    background:url(../img/application-download-link/reyhoon-light.png) no-repeat;
+    -moz-box-shadow: 1px 1px 10px 1px #f5f3f3;
+	-webkit-box-shadow: 1px 1px 10px 1px #f5f3f3;
+    cursor:pointer;
+    width: 199px; 
+    height: 60px;
+    border-radius: 8px;
+    padding: 2%;
+}
+.app-hov:hover{
+   -moz-box-shadow: 1px 1px 10px 1px #c7c7c7;
+    -webkit-box-shadow: 1px 1px 10px 1px #c7c7c7;
+}
+.big-mobile-pic{
+    position: absolute;
+    left: 0;
+    top: 3080px;
+    width: 500px; 
+    height: 800px;
+}
