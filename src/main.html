@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html dir="rtl">
+
+
 <head>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <link rel="stylesheet" href="../assets/css/global.css">
         <link rel="stylesheet" href="../assets/css/main.css">
         <link rel="stylesheet" href="../assets/css/star.css">
@@ -119,90 +122,90 @@
             <h2>رستوران‌‌ها و فست فود‌های برتر ماه بر اساس امتیاز‌دهی کاربران</h2>
             <div class="restaurant-grid">
                     <div class="restaurant">
-                            <img src="../assets/img/1rest.png" alt="reyhoon" class="pic-rest"/>
-                            <h3>فست‌فود پیتزا هات (سعادت آباد)</h3>
+                            <img id="restaurant-image-0" src="../assets/img/1rest.png" alt="reyhoon" class="pic-rest"/>
+                            <h3 id="restaurant-name-0">فست‌فود پیتزا هات (سعادت آباد)</h3>
 
                             <div class="grid-star">
                                         <div class="ls"><pre>           </pre></div>
-                                        <div class="gs"><pre>3.5</pre></div>
+                                        <div class="gs" ><pre id="restaurant-rate-0">3.5</pre></div>
                                         <div class="rate">
-                                                <input type="radio" id="star5" name="rate" value="5"/>
-                                                <label for="star5" title="text"  >5 stars</label>
-                                                <input type="radio" id="star4" name="rate" value="4" checked="true" />
-                                                <label for="star4" title="text">4 stars</label>
-                                                <input type="radio" id="star3" name="rate" value="3" />
-                                                <label for="star3" title="text" >3 stars</label>
-                                                <input type="radio" id="star2" name="rate" value="2"/>
-                                                <label for="star2" title="text">2 stars</label>
-                                                <input type="radio" id="star1" name="rate" value="1"/>
-                                                <label for="star1" title="text">1 star</label>
+                                                <input type="radio" id="star5-0" name="rate-0" value="5" checked="false"/>
+                                                <label for="star5-0" title="text" id>5 stars</label>
+                                                <input type="radio" id="star4-0" name="rate-0" value="4" checked="false" />
+                                                <label for="star4-0" title="text">4 stars</label>
+                                                <input type="radio" id="star3-0" name="rate-0" value="3" checked="false"/>
+                                                <label for="star3-0" title="text" >3 stars</label>
+                                                <input type="radio" id="star2-0" name="rate-0" value="2" checked="false"/>
+                                                <label for="star2-0" title="text">2 stars</label>
+                                                <input type="radio" id="star1-0" name="rate-0" value="1" checked="false"/>
+                                                <label for="star1-0" title="text">1 star</label>
                                         
                                         </div>
-                                        <div class="gss"><pre>(54)</pre></div>
+                                        <div class="gss"><pre id="restaurant-numOfRates-0">(54)</pre></div>
                                         <div class="ls">
                                                 <pre>           </pre>
                                         </div>
                             </div>
-                            <h5 class="info">پیتزا . فست فود . ساندویچ . برگر</h5>
-                            <h5 class="info2">سعادت آباد، پاساژ میلاد نور، طبقه همکف</h5>
+                            <h5 class="info" id="restaurant-foods-0" >پیتزا . فست فود . ساندویچ . برگر</h5>
+                            <h5 class="info2" id="restaurant-address-0" >سعادت آباد، پاساژ میلاد نور، طبقه همکف</h5>
                             <a href="#" class="myButton">شروع سفارش</a>
                     </div>
                     <div class="restaurant">
-                            <img src="../assets/img/2rest.png" alt="reyhoon" class="pic-rest"/>
-                            <h3>شیلا (مطهری)</h3>
+                            <img id="restaurant-image-1" src="../assets/img/2rest.png" alt="reyhoon" class="pic-rest"/>
+                            <h3 id="restaurant-name-1">شیلا (مطهری)</h3>
 
                             <div class="grid-star">
                                         <div class="ls"><pre>           </pre></div>
-                                        <div class="gs"><pre>3.8</pre></div>
+                                        <div class="gs"><pre id="restaurant-rate-1">3.8</pre></div>
                                         <div class="rate">
-                                                <input type="radio" id="star5" name="rate" value="5"/>
-                                                <label for="star5" title="text"  >5 stars</label>
-                                                <input type="radio" id="star4" name="rate" value="4" checked="true" />
-                                                <label for="star4" title="text">4 stars</label>
-                                                <input type="radio" id="star3" name="rate" value="3" />
-                                                <label for="star3" title="text" >3 stars</label>
-                                                <input type="radio" id="star2" name="rate" value="2"/>
-                                                <label for="star2" title="text">2 stars</label>
-                                                <input type="radio" id="star1" name="rate" value="1"/>
-                                                <label for="star1" title="text">1 star</label>
+                                                <input type="radio" id="star5-1" name="rate-1" value="5" checked="false"/>
+                                                <label for="star5-1" title="text"  >5 stars</label>
+                                                <input type="radio" id="star4-1" name="rate-1" value="4" checked="false" />
+                                                <label for="star4-1" title="text">4 stars</label>
+                                                <input type="radio" id="star3-1" name="rate-1" value="3" checked="false"/>
+                                                <label for="star3-1" title="text" >3 stars</label>
+                                                <input type="radio" id="star2-1" name="rate-1" value="2" checked="false"/>
+                                                <label for="star2-1" title="text">2 stars</label>
+                                                <input type="radio" id="star1-1" name="rate-1" value="1" checked="false"/>
+                                                <label for="star1-1" title="text">1 star</label>
                                 
                                         </div>
-                                        <div class="gss"><pre>(54)</pre></div>
+                                        <div class="gss" ><pre id="restaurant-numOfRates-1">(54)</pre></div>
                                         <div class="ls">
                                                 <pre>           </pre>
                                         </div>
                             </div>
-                            <h5 class="info">فست فود . هات داگ . پیتزا . برگر</h5>
-                            <h5 class="info2">ولیعصر، مطهری،فتحی شقاقی، زیر برج بلورین</h5>
+                            <h5 class="info" id="restaurant-foods-1">فست فود . هات داگ . پیتزا . برگر</h5>
+                            <h5 class="info2" id="restaurant-address-1">ولیعصر، مطهری،فتحی شقاقی، زیر برج بلورین</h5>
                             <a href="#" class="myButton">شروع سفارش</a>
                      </div>
-                     <div class="restaurant">
-                            <img src="../assets/img/3rest.png" alt="reyhoon" class="pic-rest"/>
-                            <h3>باگت (اندرزگو)</h3>
+                     <div class="restaurant", id="restaurant-2">
+                            <img id="restaurant-image-2" src="../assets/img/3rest.png" alt="reyhoon" class="pic-rest"/>
+                            <h3 id="restaurant-name-2" >باگت (اندرزگو)</h3>
 
                             <div class="grid-star">
                                         <div class="ls"><pre>           </pre></div>
-                                        <div class="gs"><pre>3.8</pre></div>
+                                        <div class="gs"><pre  id="restaurant-rate-2">3.8</pre></div>
                                         <div class="rate">
-                                                <input type="radio" id="star5" name="rate" value="5"/>
-                                                <label for="star5" title="text"  >5 stars</label>
-                                                <input type="radio" id="star4" name="rate" value="4" checked="true" />
-                                                <label for="star4" title="text">4 stars</label>
-                                                <input type="radio" id="star3" name="rate" value="3" />
-                                                <label for="star3" title="text" >3 stars</label>
-                                                <input type="radio" id="star2" name="rate" value="2"/>
-                                                <label for="star2" title="text">2 stars</label>
-                                                <input type="radio" id="star1" name="rate" value="1"/>
-                                                <label for="star1" title="text">1 star</label>
+                                                <input type="radio" id="star5-2" name="rate-2" value="5" checked="false"/>
+                                                <label for="star5-2" title="text"  >5 stars</label>
+                                                <input type="radio" id="star4-2" name="rate-2" value="4" checked="false" />
+                                                <label for="star4-2" title="text">4 stars</label>
+                                                <input type="radio" id="star3-2" name="rate-2" value="3" checked="false"/>
+                                                <label for="star3-2" title="text" >3 stars</label>
+                                                <input type="radio" id="star2-2" name="rate-2" value="2" checked="false"/>
+                                                <label for="star2-2" title="text">2 stars</label>
+                                                <input type="radio" id="star1-2" name="rate-2" value="1" checked="false"/>
+                                                <label for="star1-2" title="text">1 star</label>
                                 
                                         </div>
-                                        <div class="gss"><pre>(95)</pre></div>
+                                        <div class="gss"><pre id="restaurant-numOfRates-2">(95)</pre></div>
                                         <div class="ls">
                                                 <pre>           </pre>
                                         </div>
                             </div>
-                            <h5 class="info"> فست فود . پیتزا . برگر . ساندویچ</h5>
-                            <h5 class="info2">بلوار اندرزگو، بین کاوه و قیطریه، نبش مهرمحمدی</h5>
+                            <h5 class="info" id="restaurant-foods-2" > فست فود . پیتزا . برگر . ساندویچ</h5>
+                            <h5 class="info2" id="restaurant-address-2">بلوار اندرزگو، بین کاوه و قیطریه، نبش مهرمحمدی</h5>
                             <a href="#" class="myButton">شروع سفارش</a>
                      </div>
             </div>
@@ -211,88 +214,87 @@
         <h3>رستوران‌های خوب تهران در ریحون</h3>
         <div class="tehran-rest-grid">
                 <div class="teh-rest">
-                        <img src="../assets/img/op1.jpeg" alt="reyhoon" class="pic-teh-rest"/>
-                        <h5>ویترین</h5>
+                        <img id="restaurant-image-3" src="../assets/img/op1.jpeg" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5 id="restaurant-name-3">ویترین</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op2.jpeg" alt="reyhoon" class="pic-teh-rest"/>
-                        <h5>شاندیز جردن</h5>
+                        <img id="restaurant-image-4" src="../assets/img/op2.jpeg" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5 id="restaurant-name-4">شاندیز جردن</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op3.jpeg" alt="reyhoon" class="pic-teh-rest"/>
-                        <h5>تهیه غذای راد</h5>
+                        <img id="restaurant-image-5" src="../assets/img/op3.jpeg" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5 id="restaurant-name-5">تهیه غذای راد</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op4.png" alt="reyhoon" class="pic-teh-rest"/>
-                        <h5>آمولای</h5>
+                        <img id="restaurant-image-6" src="../assets/img/op4.png" alt="reyhoon" class="pic-teh-rest"/>
+                        <h5 id="restaurant-name-6">آمولای</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op5.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>جنارو</h5>
+                        <img id="restaurant-image-7" src="../assets/img/op5.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-7">جنارو</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op6.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>لانجین</h5>
+                        <img id="restaurant-image-8" src="../assets/img/op6.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-8">لانجین</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op7.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>جو گریل فود</h5>
+                        <img id="restaurant-image-9" src="../assets/img/op7.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-9">جو گریل فود</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op8.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>رستوران کوبابا</h5>
+                        <img id="restaurant-image-10" src="../assets/img/op8.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-10">رستوران کوبابا</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op9.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>تومو</h5>
+                        <img id="restaurant-image-11" src="../assets/img/op9.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-11"> تومو</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op10.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>کترینگ و تشریفات</h5>
-                        <h5>ناریجه</h5>
+                        <img id="restaurant-image-12" src="../assets/img/op10.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-12" class="oooh">ناریجه</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op11.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>امیر شکلات</h5>
+                        <img id="restaurant-image-13" src="../assets/img/op11.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-13">امیر شکلات</h5>
                 </div>
                 <div class="teh-rest">
-                        <img src="../assets/img/op12.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
-                        <h5>شیرین پلو</h5>
+                        <img id="restaurant-image-14" src="../assets/img/op12.jpeg" alt="reyhoon" class="pic-teh-rest2"/>
+                        <h5 id="restaurant-name-14">شیرین پلو</h5>
                 </div>
         </div>
     </div>
-    <div class ="food">
+    <div class ="food" >
                 <h1>غذا چی میل دارید؟</h1>
                 <h2>صبحانه، ناهار، شام یا هر چیزی که میل دارید را انتخاب کنید</h2>
                 <div class="food-grid">
-                        <div class="f1">
+                        <div class="f1" id="food-image-0">
                                 <div class="ffff">
-                                                <h1>ساندویچ</h1>
-                                                <h4>2746 رستوران فعال</h4>
+                                                <h1 id="food-header-0" >ساندویچ</h1>
+                                                <h4 id="food-text-0" >2746 رستوران فعال</h4>
                                 </div>
                         </div>
-                        <div class="f2">
+                        <div class="f2" id="food-image-1">
                                 <div class="ffff">
-                                                <h1>برگر</h1>
-                                                <h4>2452 رستوران فعال</h4>
+                                                <h1 id="food-header-1" >برگر</h1>
+                                                <h4 id="food-text-1" >2452 رستوران فعال</h4>
                                 </div>    
                         </div>
-                        <div class="f3">
+                        <div class="f3" id="food-image-2">
                                 <div class="ffff">
-                                        <h1>پیتزا</h1>
-                                        <h4>2408 رستوران فعال</h4>
+                                        <h1 id="food-header-2" >پیتزا</h1>
+                                        <h4 id="food-text-2" >2408 رستوران فعال</h4>
                                 </div>
                         </div>
-                        <div class="f4">
+                        <div class="f4" id="food-image-3">
                                 <div class="ffff">
-                                                <h1>کباب</h1>
-                                                <h4>1836 رستوران فعال</h4>
+                                                <h1 id="food-header-3" >کباب</h1>
+                                                <h4 id="food-text-3" >1836 رستوران فعال</h4>
                                 </div>                        
                         </div>
                 </div>
             
-                <h2 class="more">انتخاب غذا‌های بیشتر</h2>
-                <a href="#" class="myButton2">خورشت</a>
+                <h2 class="more" id="foood" >انتخاب غذا‌های بیشتر</h2>
+                <!-- <a href="#" class="myButton2">خورشت</a>
                 <a href="#" class="myButton2">غذای پلویی</a>
                 <a href="#" class="myButton2">خوراک</a>
                 <a href="#" class="myButton2">سالاد</a>
@@ -308,7 +310,7 @@
                 <a href="#" class="myButton2">صبحانه</a>
                 <a href="#" class="myButton2">سوپ</a>
                 <a href="#" class="myButton2">غذای دریای</a>
-                <a href="#" class="myButton2">آبمیوه طبیعی</a>
+                <a href="#" class="myButton2">آبمیوه طبیعی</a> -->
 
                 <div class="emtiyazi">
                         <img src="../assets/img/mobile.png" alt="reyhoon" class="big-mobile-pic"/>
@@ -413,6 +415,115 @@
                 </span>
                 
         </div>
+        <script>
+
+                $(document).ready(function () {
+                $.getJSON('http://demo2469824.mockable.io/best-restaurants', function (data, status) {
+                        console.log(data);
+                        for (i = 0; i < 3; i++) {
+                                document.getElementById("restaurant-name-"+ i.toString(10)).innerHTML = data["restaurants"][i].name;
+                                document.getElementById("restaurant-image-"+ i.toString(10)).innerHTML = data["restaurants"][i].imgUrl;
+                                document.getElementById("restaurant-rate-"+ i.toString(10)).innerHTML = data["restaurants"][i].rate;
+                                if(data["restaurants"][i].rate == 5){
+                                        document.getElementById("star5-"+ i.toString(10)).checked = true;
+                                }
+                                else{
+                                        if(data["restaurants"][i].rate >= 4){
+                                                document.getElementById("star4-"+ i.toString(10)).checked = true;
+                                        }
+                                        else{
+                                                if(data["restaurants"][i].rate >= 3){
+                                                        document.getElementById("star3-"+ i.toString(10)).checked = true;
+                                                }
+                                                else{
+                                                        if(data["restaurants"][i].rate >= 2){
+                                                                document.getElementById("star2-"+ i.toString(10)).checked = true;
+                                                        }  
+                                                        else{
+                                                                if(data["restaurants"][i].rate >= 1){
+                                                                        document.getElementById("star1-"+ i.toString(10)).checked = true;
+                                                                }   
+                                                        }
+                                                }
+                                        }
+                                }
+                                let temp = "";
+                                let first = true;
+                                for (food in data["restaurants"][i].foods) {
+                                        
+                                        if (first){
+                                                temp = data["restaurants"][i].foods[food];
+                                                first = false;
+                                        }
+                                        else{
+                                                temp = temp + " . " + data["restaurants"][i].foods[food]
+                                        }
+                                        
+                                }
+                                console.log(temp)
+                                document.getElementById("restaurant-foods-"+ i.toString(10)).innerHTML = temp;
+                                document.getElementById("restaurant-address-"+ i.toString(10)).innerHTML = data["restaurants"][i].address;
+                                document.getElementById("restaurant-numOfRates-"+ i.toString(10)).innerHTML = "(" + data["restaurants"][i].numOfRates.toString(10)+")";
+                       } 
+                       for (i = 3; i < 15; i++) {
+                                document.getElementById("restaurant-name-"+ i.toString(10)).innerHTML = data["restaurants"][i].name;
+                                document.getElementById("restaurant-image-"+ i.toString(10)).innerHTML = data["restaurants"][i].imgUrl;
+                               
+                        }
+                });
+                });
+                                // best_resturants();
+        </script>
+
+        <script>
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4 && this.status == 200) {
+                                console.log("heereeeeeeeeeeeeee")
+                                myFunction(this);
+                        }
+                };
+                xhttp.open("GET", "http://demo2469824.mockable.io/foods" , true);
+                xhttp.send();
+                function myFunction(xml) {
+                        var xmlDoc = xml.responseXML;
+                        console.log(xmlDoc)
+                        for (i=0; i<4; i++){
+                                let temp = xmlDoc.getElementsByTagName("name")[i].childNodes[0].nodeValue
+                                document.getElementById("food-header-"+ i.toString(10)).innerHTML = temp
+
+                                temp = xmlDoc.getElementsByTagName("count")[i].childNodes[0].nodeValue
+                                document.getElementById("food-text-"+ i.toString(10)).innerHTML = temp + " رستوران فعال "
+
+                                temp = xmlDoc.getElementsByTagName("imgUrl")[i].childNodes[0].nodeValue
+                                // temp = "linear-gradient(to bottom, rgba(0,0,0,0) 2%, rgba(0,0,0,1)), " + "url('" + temp  + "')" 
+                                document.getElementById("food-image-"+ i.toString(10)).style.background = "url('" + temp  + "')" 
+
+
+                        }
+                        for (i=4; i<xmlDoc.getElementsByTagName("name").length; i++){
+                                let temp = xmlDoc.getElementsByTagName("name")[i].childNodes[0].nodeValue
+                                let newB = document.createElement("a")
+                                newB.className = "myButton2"
+                                newB.id = "button-food-" +  i.toString(10)
+                                newB.innerHTML = temp
+                                let t = document.getElementById("foood")
+                                t.insertAdjacentElement("afterend", newB);
+                                if ((i-4)%9 == 8){
+                                        let newB = document.createElement("br")
+                                        let t = document.getElementById("foood")
+                                        t.insertAdjacentElement("afterend", newB);
+
+                                }
+
+                        }
+
+
+                }
+            
+
+        </script>
+        
 </body>
 </html>
 
