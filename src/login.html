@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html dir="rtl">
 <head>
+        <script src="../js/part3.js"></script>
         <link rel="stylesheet" href="../assets/css/global.css">
         <link rel="stylesheet" href="../assets/css/login.css">
+        <link rel="stylesheet" href="../assets/css/register.css">
         <link rel="stylesheet" href="../assets/css/main.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <title>Page Title</title>
@@ -15,76 +17,128 @@
                 </div>
                 <div class="header-tab-grid">   
                         <div class="liny-header">        
-                                <a href="#" class="mytab2"> <i class="fas fa-sign-in-alt micon2"><pre>  ورود</pre></i></a>    
+                                <a href="#" onclick="handleTab(event, 'login')" class="mytab2"> <i class="fas fa-sign-in-alt micon2"><pre>  ورود</pre></i></a>    
                                 
                         </div>
                         <div  class="liny-header">
-                                <a href="#" class="mytab1"> <i class="fas fa-user micon1"><pre>  ثبت نام</pre></i> </a>          
+                                <a href="#" onclick="handleTab(event, 'register')" class="mytab1"> <i class="fas fa-user micon1"><pre>  ثبت نام</pre></i> </a>          
+                        </div>
+                        <!-- <div class="linlin">
+                                <pre> </pre>     
+                        </div> -->
+                </div>
+                <div class="header-tab-line">   
+                        <div class="linlinlin lll1">
+                                <pre> </pre>     
+                        </div>
+                        <div class="linlinlin lll2">
+                                        <pre> </pre>     
                         </div>
                 </div>
                 <div class="linlin">
                         <pre> </pre>     
                 </div>
         </div>
-        <div class="shift-it">
-                        <div class="login-main">
-                                        <br>
-                                        <br>
-                                        <h5 class="t1">ورود</h5>
-                                        <h5 class="t2">ایمیل و یا شماره تلفن خود را وارد کنید</h5>
-                                        <div class="input-login">
-                                                <div class="inner-login right-login">
-                                                        <i class="fas fa-user micon3"></i> 
-                                                        <input class="myyinput" type="text" placeholder="ایمیل یا شماره همراه"/>
-                                                </div> 
-                                                <div class="inner-login right-login">
-                                                                <i class="fas fa-key micon3"></i>
-                                                                <input class="myyinput" type="text" placeholder="رمز ورود"/>
-                                                </div> 
-                                                <a href="#">رمز عبور خود را فراموش کردم</a>
-                                        </div>
-                                        
+        <div class="shift-it" id="login">
+                <div class="login-main">
+                                <br>
+                                <br>
+                                <h5 class="t1">ورود</h5>
+                                <h5 class="t2">ایمیل و یا شماره تلفن خود را وارد کنید</h5>
+                                <div class="input-login">
+                                        <div class="inner-login right-login">
+                                                <i class="fas fa-user micon3"></i> 
+                                                <input class="myyinput" type="text" placeholder="ایمیل یا شماره همراه"/>
+                                        </div> 
+                                        <div class="inner-login right-login">
+                                                        <i class="fas fa-key micon3"></i>
+                                                        <input class="myyinput" type="text" placeholder="رمز ورود"/>
+                                        </div> 
+                                        <a href="#">رمز عبور خود را فراموش کردم</a>
                                 </div>
-                                <div class="khaste">
-                                        <a href="#" class="myButton3">ورود</a>
-                                </div>
-                                <div class="khastetar">
-                                        <span class="fa-stack">
-                                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                                        <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                        <span class="fa-stack">
-                                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                                        <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                        <span class="fa-stack">
-                                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                        <span class="fa-stack">
-                                                <i class="fas fa-circle fa-stack-2x"></i>
-                                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                        <span class="fa-stack">
-                                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                </div>
-                                <div class="linlin">
-                                                <pre> </pre>     
-                                </div>
-                                <div class="kheyli-khaste">
-                                        <h5 class="t1">سوالات متداول</h5>
-                                        <h5 class="t1">ثبت رستوران</h5>
-                                        <h5 class="t1">درباره ریحون</h5>
-                                        <h5 class="t1">بلاگ</h5>
-                                        <h5 class="t1">قوانین و مقررات</h5>
-                                        <h5 class="t1">تماس با ریحونیا</h5>
-                                </div>
+                                
+                </div>
+                <div class="khaste">
+                        <a href="#" class="myButton3">ورود</a>
+                </div>
+                                
         </div>
-       
+        <div class="shift-it" id="register">
+                <div class="login-main">
+                        <br />
+                        <br />
+                        <br>
+                        <h5 class="t1">ثبت نام</h5>
+                        <h5 class="t2">از اینکه داری به جمع ریحونیا می‌پیوندی خیلی خوشحالیم</h5>
+                        <div class="input-login">
+                                <div class="inner-login right-login">
+                                        <i class="fas fa-user micon3"></i> 
+                                        <input class="myyinput" type="text" placeholder="نام و نام خانوادگی"/>
+                                </div> 
+                                <div class="grid-inpuut">
+                                        <div class="inner-login right-login">
+                                                <i class="fas fa-phone micon3"></i>
+                                                <input class="myyinput2" type="text" placeholder="شماره همراه"/>
+                                        </div> 
+                                        <div class="inner-login right-login">
+                                                <i class="fas fa-envelope micon3"></i>
+                                                <input class="myyinput2" type="text" placeholder="ایمیل"/>
+                                        </div> 
+                                </div>
+                                
+                                <div class="inner-login right-login">
+                                                <i class="fas fa-key micon3"></i>
+                                                <input class="myyinput" type="text" placeholder="رمز ورود"/>
+                                </div> 
+                                <div class="inner-login right-login">
+                                        <i class="fas fa-key micon3"></i>
+                                        <input class="myyinput" type="text" placeholder="تکرار رمز ورود"/>
+                        </div> 
+                                <a href="#">رمز عبور خود را فراموش کردم</a>
+                        </div>
+                        
+                </div>
+                <div class="khaste">
+                        <a href="#" class="myButton3">ورود</a>
+                </div>
+
+        </div>
+        <div class="khastetar">
+                <span class="fa-stack">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+        </div>
+        <div class="linlin">
+                        <pre> </pre>     
+        </div>
+        <div class="kheyli-khaste">
+                <h5 class="t1">سوالات متداول</h5>
+                <h5 class="t1">ثبت رستوران</h5>
+                <h5 class="t1">درباره ریحون</h5>
+                <h5 class="t1">بلاگ</h5>
+                <h5 class="t1">قوانین و مقررات</h5>
+                <h5 class="t1">تماس با ریحونیا</h5>
+        </div>
         
         
+
         
 </body>
 </html>

@@ -8,7 +8,7 @@
     background-color: white;
   }
   .shift-it{
-    margin-block-start: 99px;
+    margin-block-start: 89px;
   }
 
 .header{
@@ -40,6 +40,20 @@
     margin-bottom:0px;
 
 }
+.linlinlin{
+    font-size: 1px;
+    width: 90%;
+    margin-block-end: 0%;
+    padding-block-end: 0%;
+    margin-bottom:0px;
+
+}
+.lll1 {
+    background-color: #cf0067;
+}
+.lll2 {
+    background-color: white;
+}
 .header-tab-grid{
     display: grid;
     grid-template-columns: auto auto;
@@ -49,6 +63,16 @@
     padding-bottom: 1%;
     text-align: center;
     border-bottom: 1px;
+    border-bottom-color: #cf0067;
+    padding-block-start: 3px;
+
+}
+.header-tab-line{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
     border-bottom-color: #cf0067;
     padding-block-start: 3px;
 }
@@ -216,4 +240,7 @@ i { vertical-align: middle; }
     margin-block-start: 40px;
     margin-block-end: 40px;
     text-align: center;
+}
+#register {
+    display: none;
 }
